@@ -1,0 +1,49 @@
+.box-score-main-div {
+    margin: 10px 0px;
+}
+
+.scores {
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #e3e3e3;
+    color: #333;
+}
+
+/* .rounds {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: #d5d5d5;
+    color: #333;
+    align-items: right;
+    width: 600px;
+} */
+
+.team-names-wth-total {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    /* margin: 10px;
+    padding: 10px; */
+    width: 800px;
+    background-color: #c3c3c3;
+    color: #333;
+}
+
+.team-away {
+    width: 100%;
+    background-color: steelblue;
+    text-align: center;
+    color: #f3f3f3
+}
+
+.team-home {
+    width: 100%;
+    background-color: tomato;
+    text-align: center;
+    color: #f3f3f3;
+}
